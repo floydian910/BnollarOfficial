@@ -17,16 +17,14 @@
     justify-content: space-between;
 }
 .login-page__welcome {
-   background-color: #292D7D;
 
-  
+  position: relative;
 
 }
 .login-page__welcome h1 {
     font-family: 'SF Pro Display';
     font-weight: 500;
-    font-size: 24px;
-    padding: -10px 0 ;   
+    font-size: 24px;   
 }
 .login-page__welcome a {
     
@@ -34,9 +32,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-
+    position: absolute;
+    top: 50px;
     text-decoration: none;
-
     color: #7A8290;
 }
 .login-inputs__form {
@@ -48,18 +46,18 @@
 
 }
 .inputs  input{
-   width: 99%;
-   height: 60px;
+   width: 87%;
    border: 1px solid #E2E5EB;
    outline: 0;
    border-radius:16px;
    margin: 10px 0 0 0;
+   color: #7A8290;
+    padding: 24px;
+    font-size: 14px;
    
 }
 
-::placeholder {
-    padding: 24px 24px;
-}
+
 
 
 .login-inputs__form button {
@@ -77,6 +75,9 @@
     border: 0;
     outline: 0;
     cursor: pointer;
+}
+.login-inputs__form button:focus {
+    background-color:red;
 }
 .forgot-password {
     display: flex;
