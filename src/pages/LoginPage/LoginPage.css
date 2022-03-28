@@ -85,12 +85,26 @@
     cursor: pointer;
 }
 
-.forgot-password {
+.remember-and-forgot-password {
     display: flex;
-    justify-content: right;
+    justify-content:space-between;
+    align-items: center;
     padding: 7px 0 40px 0;
 }
-.forgot-password a{
+.remember-password {
+    display: flex;
+}
+.remember-password p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #566370;
+    margin-left: 5px;
+}
+.remember-and-forgot-password a{
     text-decoration: none;
     color: #292D7D;
 

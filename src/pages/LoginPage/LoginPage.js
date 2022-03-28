@@ -35,7 +35,12 @@ function LoginPage() {
             <input type="password" placeholder='Password'/>
             </div>
          
-            <div className="forgot-password">
+            <div className="remember-and-forgot-password">
+              <div className="remember-password">
+                <input type="checkbox" />
+                <p>Remember password</p>
+              </div>
+              
               <a href="#">Forgot password</a>
            
             </div>
