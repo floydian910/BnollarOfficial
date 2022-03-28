@@ -27,6 +27,7 @@ function LoginPage() {
             </div>
 
             <button>Sign in</button>
+            <div className="sign-up"><p>Don’s have an account?</p> <a href="#">Sign Up</a></div>
           </form>
         </div>
         </div>

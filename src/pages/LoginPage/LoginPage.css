@@ -17,8 +17,7 @@
 }
 .login-page__content {
     Width:350px;
-    height:433px;
-
+    height:466px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,6 +25,7 @@
 .login-page__welcome {
 
   position: relative;
+  padding-bottom: 20px;
 
 }
 .login-page__welcome h1 {
@@ -40,9 +40,10 @@
     font-weight: 400;
     font-size: 14px;
     position: absolute;
-    top: 35px;
+    top: 33px;
     text-decoration: none;
     color: #7A8290;
+    
 }
 .login-inputs__form {
     display: flex;
@@ -99,6 +100,32 @@
     font-size: 14px;
     line-height: 17px;
 
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.sign-up p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #566370;
+}
+.sign-up a {
+    text-decoration: none;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 5px;
+    color: #292D7D;
 }
 .login-right__wrapper {
     
