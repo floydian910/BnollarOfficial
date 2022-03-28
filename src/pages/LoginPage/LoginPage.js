@@ -1,5 +1,6 @@
 import React from 'react'
 import './LoginPage.css'
+import './LoginPageResponsive.css'
 
 
 function LoginPage() {
