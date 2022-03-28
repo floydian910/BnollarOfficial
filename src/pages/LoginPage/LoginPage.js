@@ -1,14 +1,27 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './LoginPage.css'
 import './LoginPageResponsive.css'
+import Registration from './Registration'
 
 
 function LoginPage() {
+
+      const [signUp, setSignUp] = useState(false)
+
+      const signUpHandler = () => {
+          setSignUp(true)
+      }
+
+      const submitHandler = (e) => {
+          e.preventDefault()
+      }
+
+
   return (
     <div className='login-page__wrapper'>
 
 <div className="login-left__wrapper">
-        <div className="login-page__content">
+       {!signUp ? <div className="login-page__content">
           <div className="login-page__logo">
             <img src={require('../../pictures/logo.png')} alt="logo" />
           </div>
@@ -16,7 +29,7 @@ function LoginPage() {
             <h1>Welcome back</h1>
             <a href="#">Sign in to your account</a>
           </div>
-          <form className="login-inputs__form">
+          <form className="login-inputs__form" onSubmit={submitHandler}>
             <div className="inputs">
             <input type="text"  placeholder='Username'/>
             <input type="password" placeholder='Password'/>
@@ -28,9 +41,10 @@ function LoginPage() {
             </div>
 
             <button>Sign in</button>
-            <div className="sign-up"><p>Don’s have an account?</p> <a href="#">Sign Up</a></div>
+            <div className="sign-up"><p>Don’s have an account?</p> <a href="#" onClick={signUpHandler}>Sign Up</a></div>
           </form>
         </div>
+        : <Registration setSignUp={setSignUp}/> }
         </div>
 
 
