@@ -41,12 +41,12 @@ function LoginPage() {
                 <p>Remember password</p>
               </div>
               
-              <a href="#">Forgot password</a>
+              <a href="#">Forgot password?</a>
            
             </div>
 
             <button>Sign in</button>
-            <div className="sign-up"><p>Don’s have an account?</p> <a href="#" onClick={signUpHandler}>Sign Up</a></div>
+            <div className="sign-up"><p>Don’t have an account?</p> <a href="#" onClick={signUpHandler}>Sign Up</a></div>
           </form>
         </div>
         : <Registration setSignUp={setSignUp}/> }
@@ -61,10 +61,38 @@ function LoginPage() {
         <div className="welcome-sircles">
       
                 <div className="elipse1">
+                <div className="ellipse10-div">
+                  <img className='ellipse10' src={require('../../pictures/Ellipse 10.png')} alt="" />
+                </div>
+                <div className="ellipse11-div">
+                  <img className='ellipse11' src={require('../../pictures/Ellipse 10.png')} alt="" />
+                </div>
+
+                <div className="ellipse13-div">
+                <img className='ellipse13' src={require('../../pictures/Ellipse 9.png')} alt="elipse5" />               
+                  </div>
                   <div className="elipse2">
+                  <div className="ellipse12-div">
+                  <img className='ellipse12' src={require('../../pictures/Ellipse 7.png')} alt="" />
+                </div>
+                  <div className="elipse7-div">
+                    <img className='ellipse7' src={require('../../pictures/Ellipse 7.png')} alt="elipse5" />
+                    </div>  
                     <div className="elipse3">
+
+                    <div className="ellipse6-div">
+                          <img className='ellipse6' src={require('../../pictures/Ellipse 6.png')} alt="" />
+                        </div>
+
+                <div className="elipse9-div">
+                <img className='ellipse9' src={require('../../pictures/Ellipse 9.png')} alt="elipse5" />               
+                  </div>
                       <div className="elipse4">
-                        <div className="elipse5">
+                      
+                <div className="elipse8-div">
+                <img className='ellipse8' src={require('../../pictures/Ellipse 8.png')} alt="elipse5" />
+                </div>
+                <div className="elipse5">
                           <img src={require('../../pictures/Ellipse 5.png')} alt="elipse" />
                         </div>
                       </div>
@@ -72,12 +100,9 @@ function LoginPage() {
                   </div>
                 </div>
 
-                <img className='ellipse6' src={require('../../pictures/Ellipse 6.png')} alt="elipse5" />
-                <img className='ellipse7' src={require('../../pictures/Ellipse 7.png')} alt="elipse5" />
-                <img className='ellipse8' src={require('../../pictures/Ellipse 8.png')} alt="elipse5" />
-                <img className='ellipse9' src={require('../../pictures/Ellipse 9.png')} alt="elipse5" />
-                <img className='ellipse10' src={require('../../pictures/Ellipse 10.png')} alt="elipse5" />
-        </div>
+              
+                
+                </div>
         
          </div>
     </div>
