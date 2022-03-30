@@ -66,14 +66,16 @@
 }
 
 
+.signin-link {
+    width: 100%;
+}
 
-
-.login-inputs__form button {
+    .signin-btn {
     height: 60px;
     border-radius: 16px;
     background-color: #292D7D;
     color: #ffff;
-
+    width: 100%;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 600;

@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import {Link} from 'react-router-dom'
 import './LoginPage.css'
 import './LoginPageResponsive.css'
 import Registration from './Registration'
@@ -45,7 +46,7 @@ function LoginPage() {
            
             </div>
 
-            <button>Sign in</button>
+           <Link className='signin-link' to={'/profile'}><button className='signin-btn'>Sign in</button></Link> 
             <div className="sign-up"><p>Don’t have an account?</p> <a href="#" onClick={signUpHandler}>Sign Up</a></div>
           </form>
         </div>

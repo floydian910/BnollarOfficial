@@ -77,3 +77,19 @@
     text-decoration: none;
     color: #7A8290;
 }
+.register-submit-button {
+    height: 60px;
+    border-radius: 16px;
+    background-color: #292D7D;
+    color: #ffff;
+    width: 100%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
