@@ -6,7 +6,7 @@
 
 }
 .post-content {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .post-header {
@@ -60,6 +60,7 @@
 .post-icons {
     display: flex;
     justify-content: space-between; 
+    padding: 10px 0 0 0 ;
 }
 .action-icons {
     
@@ -71,11 +72,12 @@
     
 }
 .comment-icon {
-    margin: 0 7px;
+    margin: 0 13px;
     cursor: pointer;
 }
 .stroke {
     margin-right: 5px;
+    cursor: pointer;
 }
 .likes-counter {
     margin: 10px 0 0 0 ;
@@ -90,6 +92,7 @@
 }
 .comment-wrapper  {
     margin: 10px 0;
+    position: relative;
 }
 .comment-wrapper input {
     width: 95.5%;
@@ -107,4 +110,11 @@
     line-height: 18px;
 
     color: #566370;
+   
+}
+.send-comment {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    cursor: pointer;
 }

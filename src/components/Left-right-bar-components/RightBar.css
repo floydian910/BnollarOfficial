@@ -1,0 +1,43 @@
+.right-bar__wrapper {
+    width: 255px;
+    display: flex;
+    border: 1px solid red;
+    height: 150vh;
+    flex-direction: column;
+    overflow-y:scroll ;
+    position: sticky;
+    top: 0;
+}
+.right-navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload input[type='file'] {
+    display: none;
+}
+.upload-label {
+    width: 118px;
+    height: 44px;
+    border-radius: 44px;
+    cursor: pointer;
+    background-color: #292D7D1A;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #292D7D;
+    letter-spacing: 0.004em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-profile-img {
+    width:44px;
+    height:44px;
+}
+.right-profile-img img {
+    width: 100%;
+}

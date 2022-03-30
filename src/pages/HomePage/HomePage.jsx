@@ -4,6 +4,7 @@ import "./HomePage.css"
 import Container from '../../components/Container/Container'
 import LeftBar from '../../components/Left-right-bar-components/LeftBar'
 import Post from '../../components/PostComponents/Post'
+import RightBar from '../../components/Left-right-bar-components/RightBar'
 const HomePage = () => {
   return (
     <div className="home_page_wrapper">
@@ -13,7 +14,7 @@ const HomePage = () => {
         <Feed/>
          <Post />
         </div>
-        <LeftBar /> 
+        <RightBar />
       </Container>
     </div>
   )

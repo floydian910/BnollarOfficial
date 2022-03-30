@@ -5,6 +5,7 @@ import heart from '../icons/heart.svg'
 import  Comment from '../icons/Comment.svg'
 import Send from '../icons/Send.svg'
 import Stroke from '../icons/Stroke.svg'
+import SendComment from '../icons/SendComment.svg'
 
 
 
@@ -19,7 +20,7 @@ function Post() {
                       {/********************** HEADER************************************/}          
                             <div className="post-header">
                             <div className="post-profile-image">  
-                             <img src={post.profileImg} alt="image" />
+                             <img  src={post.profileImg} alt="image" />
                             </div>
                       {/**********************************************************/}
 
@@ -60,17 +61,23 @@ function Post() {
                                                 <img className='stroke' src={Stroke} alt="stroke" />
                                         </div>
 
-
+                    {/********************* LIKES *************************************/}
                                         <div className="likes-counter"> 5 likes</div>
 
                                 </div>
-                      
+                     {/**********************************************************/} 
+
+
+
+
+                     {/********************* COMMENT*************************************/}
 
                       <div className="comment-wrapper">
                           <input type="text"  placeholder='Write your comment' />
+                           <img className='send-comment' src={SendComment} alt="sendComment" />
                       </div>
 
-
+                      {/**********************************************************/}  
 
                      </div>
                         </>
