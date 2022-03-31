@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    margin: auto  auto;
 }
 
 .sort_btns_wrapper{

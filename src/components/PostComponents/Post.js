@@ -12,8 +12,46 @@ import SendComment from '../icons/SendComment.svg'
 function Post() {
   return (
     <div className='post-main__wrapper'>
-            {PostData.map((post) => {
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
 
+        <h1>asasdasdasd</h1><h1>asasdasdasd</h1>
+
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1><h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+
+
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+        <h1>asasdasdasd</h1>
+            {PostData.map((post) => {
+                
                     return (<>
                             <div className="post-content">
 

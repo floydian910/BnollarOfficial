@@ -2,7 +2,7 @@
     width: 255px;
     display: flex;
     border: 1px solid red;
-    height: 150vh;
+    height: 100vh;
     flex-direction: column;
     overflow-y:scroll ;
     position: sticky;

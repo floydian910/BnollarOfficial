@@ -12,7 +12,9 @@ const HomePage = () => {
         <LeftBar />
         <div className="center-content__wrapper">
         <Feed/>
+    
          <Post />
+    
         </div>
         <RightBar />
       </Container>

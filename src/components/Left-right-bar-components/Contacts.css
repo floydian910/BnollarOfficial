@@ -15,8 +15,7 @@
     line-height: 17px;
 }
 .contacts-profile__wrapper {
-    overflow-y: scroll;
-    height: 290px;
+
 }
 
 .contacts-profile__wrapper::-webkit-scrollbar {

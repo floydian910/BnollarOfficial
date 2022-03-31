@@ -2,11 +2,17 @@
    
     
 
+   
 }
 
 .center-content__wrapper {
     width: 540px;
     display: flex;
     flex-direction: column;
-
+    overflow: scroll;
+     background-color: red;
 }
+.center-content__wrapper::-webkit-scrollbar{
+  
+}
+
