@@ -32,10 +32,10 @@ function Contacts() {
 
                     <div className="contacts-profile-cont">
                            <div className="contacst-profile-img">
-                               <img src={contact.profileImg} alt="img" />
+                              <a href={contact.linkTo}><img src={contact.profileImg} alt="img" /></a>
                            </div>
                            <div className="contacts-text">
-                               <div className="contacts-profile-name-surname"> <a href="#">{`${contact.name} ${contact.surname}`}</a></div>
+                               <div className="contacts-profile-name-surname"> <a href={contact.linkTo}>{`${contact.name} ${contact.surname}`}</a></div>
                                 <div className="active-status"> <p>{contact.activeStatus}</p></div>
                            </div>
                     </div>

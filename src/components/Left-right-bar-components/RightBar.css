@@ -1,13 +1,14 @@
 .right-bar__wrapper {
     width: 255px;
     display: flex;
-    border: 1px solid red;
-    height: 100vh;
+    height: 95vh;
     flex-direction: column;
-    overflow-y:scroll ;
     position: sticky;
-    top: 0;
+    top: 4.5%;
 }
+.right-bar__wrapper::-webkit-scrollbar {
+    display: none;
+  }
 .right-navbar__wrapper {
     display: flex;
     justify-content: space-between;
@@ -40,4 +41,23 @@
 }
 .right-profile-img img {
     width: 100%;
+}
+.right-navbar-icons {
+    display: flex;
+    align-items: center;
+    
+}
+.bell-icon {
+    text-decoration: none;
+    font-size: 23px;
+    color: #525252;
+    padding: 3px 20px  0 0;
+}
+.chat-icon {
+    color:grey;
+}
+.contacts-topnfts-wrapper {
+
+    overflow-y:scroll ;
+    overflow-x:hidden;
 }

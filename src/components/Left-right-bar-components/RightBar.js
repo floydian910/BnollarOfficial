@@ -1,8 +1,10 @@
 import React from 'react'
 import './RightBar.css'
 
-import {Chatt} from '../icons/Chatt.svg'
+import Chat from '../icons/Chat.svg'
 import Contacts from './Contacts'
+import TopNfts from './TopNfts'
+import {HiBell} from 'react-icons/hi'
 
 function RightBar() {
   return (
@@ -15,15 +17,18 @@ function RightBar() {
             </div>
 
             <div className="right-navbar-icons">
-             bell chat
+              <a className='bell-icon' href="/"><HiBell />  </a>
+             <a className='chat-icon' href="/"><img src={Chat} alt="chat" /></a> 
             </div>
 
             <div className="right-profile-img">
-                <img src="https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png" alt="asdas" />
+               <a href='/'><img src="https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png" alt="asdas" /></a>
             </div>
         </div>
-
+          <div className="contacts-topnfts-wrapper">
            <Contacts />
+           <TopNfts />
+           </div>
 
 
     </div>

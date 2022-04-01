@@ -1,7 +1,9 @@
 .home_page_wrapper{
-   
-    
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
    
 }
 
@@ -9,8 +11,6 @@
     width: 540px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
-     background-color: red;
 }
 .center-content__wrapper::-webkit-scrollbar{
   

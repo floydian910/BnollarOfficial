@@ -4,7 +4,8 @@
 
     max-width: 1110px;
     margin: 27px auto;
-   display: flex;
+    display: flex;
+    justify-content: space-between;
 
 
 }

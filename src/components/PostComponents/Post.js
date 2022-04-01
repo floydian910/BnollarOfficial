@@ -9,47 +9,12 @@ import SendComment from '../icons/SendComment.svg'
 
 
 
+
+
 function Post() {
   return (
     <div className='post-main__wrapper'>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-
-        <h1>asasdasdasd</h1><h1>asasdasdasd</h1>
-
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1><h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-
-
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
-        <h1>asasdasdasd</h1>
+     
             {PostData.map((post) => {
                 
                     return (<>
@@ -58,7 +23,7 @@ function Post() {
                       {/********************** HEADER************************************/}          
                             <div className="post-header">
                             <div className="post-profile-image">  
-                             <img  src={post.profileImg} alt="image" />
+                            <a href={post.linkTo}> <img  src={post.profileImg} alt="image" /> </a> 
                             </div>
                       {/**********************************************************/}
 
@@ -68,8 +33,8 @@ function Post() {
 
                       {/********************* NICKNAME AND NAME*************************************/}      
                             <div className="name-and-nick">
-                                <h3>{post.name}</h3>
-                                    <p>{post.nickName}</p>                        
+                                <a className='post-profile-name' href={post.linkTo}>{post.name}</a>
+                                    <a className='post-profile-nickname' href={post.linkTo}>{post.nickName} </a>                      
                                 </div>
                             </div>
                       {/**********************************************************/}  
@@ -96,7 +61,9 @@ function Post() {
                                                     <img src={Send} alt="heart" />
                                                 </div>
 
-                                                <img className='stroke' src={Stroke} alt="stroke" />
+                                                <img className='stroke' src={Stroke} alt="stroke" ></img>
+                                           
+                                                
                                         </div>
 
                     {/********************* LIKES *************************************/}

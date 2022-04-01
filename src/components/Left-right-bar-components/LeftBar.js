@@ -15,7 +15,7 @@ function LeftBar() {
         {/************************ LOGO AND SEARCH **********************************/}
         <div className="search-and-logo__wrapper">
             <div className="logo">
-                <img src={require('../../pictures/logo.png')} alt="" />
+                <a href='/'><img src={require('../../pictures/logo.png')} alt="" /></a>
             </div>
             <div className="search-input">
                 <input type="text" placeholder='Search' />

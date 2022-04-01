@@ -1,11 +1,11 @@
 .post-main__wrapper {
     width: 100%;
-    margin: 20px 0;
+    margin: 20px 0 0 0 ;
     display: flex;
     flex-direction: column;
 }
 .post-content {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
   
 }
 
@@ -17,7 +17,7 @@
 .post-profile-image {
     width: 44px;
 }
-.post-profile-image img {
+.post-profile-image a img {
     width: 100%;
 }
 
@@ -27,16 +27,17 @@
     margin-left: 5px;
 
 }
-.name-and-nick h3 {
+.post-profile-name{
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-
+    text-decoration: none;
     color: #101419;
 }
-.name-and-nick p {
+.post-profile-nickname{
+    text-decoration: none;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -78,6 +79,17 @@
 .stroke {
     margin-right: 5px;
     cursor: pointer;
+    position: relative;
+}
+.comment-sircle{
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+    top: 0;
+    background-color: #000;
+    left: 0;
+    border-radius: 50%;
 }
 .likes-counter {
     margin: 10px 0 0 0 ;

@@ -5,9 +5,12 @@
     flex-direction: column;
     justify-content: space-between;
      position: sticky;
-   top: 0%;
+   top: 4.5%;
 
 
+}
+.logo a img {
+    cursor: pointer;
 }
 .search-and-logo__wrapper {
     display: flex;
