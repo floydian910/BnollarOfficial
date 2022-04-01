@@ -11,12 +11,22 @@ const SwipeProfiles = () => {
             name: "floydian",
         },
         {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
+            img: "https://res.cloudinary.com/diyky5uya/image/upload/v1648645717/profilePic1_cmmsdz.png",
             linkTo: "/",
             name: "kichi",
         },
         {
             img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
+            linkTo: "/",
+            name: "floydian",
+        },
+        {
+            img: "https://res.cloudinary.com/diyky5uya/image/upload/v1648804907/Ellipse_1_fsaztg.png",
+            linkTo: "/",
+            name: "kichi",
+        },
+        {
+            img: "https://res.cloudinary.com/diyky5uya/image/upload/v1648645717/profilePic1_cmmsdz.png",
             linkTo: "/",
             name: "floydian",
         },
@@ -31,17 +41,7 @@ const SwipeProfiles = () => {
             name: "floydian",
         },
         {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
-            linkTo: "/",
-            name: "kichi",
-        },
-        {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
-            linkTo: "/",
-            name: "floydian",
-        },
-        {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
+            img: "https://res.cloudinary.com/diyky5uya/image/upload/v1648645717/profilePic1_cmmsdz.png",
             linkTo: "/",
             name: "kichi",
         },
