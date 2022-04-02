@@ -1,10 +1,12 @@
 .feed{
-    width: 540px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
     margin: auto  auto;
+    margin-top: 15px;
+  
 }
 
 .sort_btns_wrapper{
@@ -32,9 +34,15 @@
     background-color: transparent;
     padding: 0 11px 10px 0;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
-.sort_btns_wrapper #activeSort{
+.sort_btns_wrapper button:hover{
+    color: #292D7D;
+
+}
+
+.sort_btns_wrapper  {
     font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -45,10 +53,25 @@ text-transform: capitalize;
 
 /* primary */
 
+
 color: #292D7D;
-border-bottom: 4px solid #292D7D;
-border-radius: 2px;
 
 
 }
+#activeSort {
+    color: #292D7D;
+}
+#activeSort::after {
+    color: #292D7D;
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #292D7D;
+    border-radius: 4px ;
+    display: block;
+    margin: 5px 0 0 0;
+}
+
+
+
 

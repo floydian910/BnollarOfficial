@@ -41,6 +41,12 @@
 
 }
 .left-bar-menu__wrapper li {
+    list-style: none; 
+    display: flex;
+    border-radius: 58px;
+        
+}
+.left-bar-menu__wrapper li  a {
     list-style: none;
     width: 100%;
     border-radius:58px;
@@ -56,7 +62,7 @@
     color: #566370;
     cursor: pointer;
     transition: all 0.2s;
-
+    text-decoration: none;
 }
 
 .left-bar-menu__wrapper li:hover {
@@ -72,7 +78,6 @@
     justify-content: left;
     align-items: center;
     border-radius:58px;
-    background-color: #ffff;
     height: 44px;
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -83,6 +88,7 @@
     outline: 0;
     cursor: pointer;
     color: #566370;
+   
    
 }
 .log-out-btn:hover {

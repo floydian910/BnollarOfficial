@@ -9,7 +9,10 @@
 
   .prfile_item_image{
       width: 64px;
-      height: 64px
+      height: 64px;
+      border: 3px solid #292D7D;
+      border-radius: 50%;
+      
   }
 
   .profile_item_title{
@@ -25,4 +28,57 @@
     /* Black */
     
     color: #101419;
+  }
+
+  @media screen and (max-width:500px) {
+    .prfile_item_image{
+      width: 60px;
+      height: 60px
+  }
+
+  .profile_item_title {
+    display: none;
+  }
+  }
+
+
+  @media screen and (max-width:488px) {
+    .prfile_item_image{
+      width: 55px;
+      height: 55px
+  }
+  }
+  @media screen and (max-width:448px) {
+    .prfile_item_image{
+      width: 50px;
+      height: 50px;
+      
+  }
+  }
+
+  @media screen and (max-width:402px) {
+    .prfile_item_image{
+      width: 45px;
+      height: 45px
+  }
+  }
+
+
+  @media screen and (max-width:372px) {
+    .prfile_item_image{
+      width: 40px;
+      height: 40px
+  }
+  }
+  
+  @media screen and (max-width:300px) {
+    .prfile_item_image{
+      width: 40px;
+      height: 40px;
+      margin-left:5px; 
+  }
+
+  .profile_item_title {
+    display: none;
+  }
   }

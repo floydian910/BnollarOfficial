@@ -1,9 +1,9 @@
 import React from 'react'
 import './RightBar.css'
-
-import Chat from '../icons/Chat.svg'
-import Contacts from './Contacts'
-import TopNfts from './TopNfts'
+import './RightBarResponsive.css'
+import Chat from '../../icons/Chat.svg'
+import Contacts from '../Contacts'
+import TopNfts from '../TopNfts'
 import {HiBell} from 'react-icons/hi'
 
 function RightBar() {
