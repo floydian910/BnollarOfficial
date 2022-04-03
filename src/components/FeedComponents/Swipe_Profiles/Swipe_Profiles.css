@@ -10,10 +10,10 @@
   .prfile_item_image{
       width: 64px;
       height: 64px;
-      border: 3px solid #292D7D;
+      border: 4px solid #292D7D;
       border-radius: 50%;
-      
   }
+
 
   .profile_item_title{
     font-family: 'SF Pro Display';
@@ -29,29 +29,60 @@
     
     color: #101419;
   }
+  .swiper-border {
+    width: 100%;
+    background-color: #F0F3F4;
+    margin-top: 24px;
+  }
+
+  @media screen and (max-width:555px) {
+    .prfile_item_image{
+      width: 55px;
+      height: 55px
+  }
+  }
 
   @media screen and (max-width:500px) {
     .prfile_item_image{
-      width: 60px;
-      height: 60px
+      width: 65px;
+      height: 65px
   }
 
   .profile_item_title {
     display: none;
+  }
+  .swiper-border{
+    margin-top: 20px;
   }
   }
 
 
   @media screen and (max-width:488px) {
     .prfile_item_image{
-      width: 55px;
-      height: 55px
+      width: 53px;
+      height: 53px
+  }
+
+  .swiper-border{
+    margin-top: 18px;
   }
   }
   @media screen and (max-width:448px) {
     .prfile_item_image{
       width: 50px;
       height: 50px;
+    }
+
+    .swiper-border{
+      margin-top: 16px;
+    }
+      
+  }
+
+  @media screen and (max-width:410px) {
+    .prfile_item_image{
+      width: 47px;
+      height: 47px;
       
   }
   }
@@ -66,15 +97,18 @@
 
   @media screen and (max-width:372px) {
     .prfile_item_image{
-      width: 40px;
-      height: 40px
+      width: 43px;
+      height: 43px
+  }
+  .swiper-border{
+    margin-top: 14px;
   }
   }
   
   @media screen and (max-width:300px) {
     .prfile_item_image{
-      width: 40px;
-      height: 40px;
+      width: 33px;
+      height: 33px;
       margin-left:5px; 
   }
 

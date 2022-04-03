@@ -63,10 +63,7 @@
     justify-content: space-between; 
     padding: 10px 0 0 0 ;
 }
-.action-icons {
-    
-   
-}
+
 .action-icons img  {
     cursor: pointer;
     color: red;
@@ -105,28 +102,30 @@
 .comment-wrapper  {
     margin: 10px 0;
     position: relative;
+    border: 1px solid #F0F3F4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
 }
 .comment-wrapper input {
-    width: 95.5%;
+    width: 100%;
     border: 0;
     outline: 0;
     height: 52px;
-    border-radius: 20px;
     padding: 0 12px ;
-    border: 1px solid #F0F3F4;
-
     font-family: 'SF Pro Display';
+    border-radius: 20px;
     font-style: normal;
     font-weight: 100;
     font-size: 14px;
     line-height: 18px;
-
+    word-wrap: break-word;
     color: #566370;
    
 }
 .send-comment {
-    position: absolute;
-    top: 30%;
-    right: 5%;
+
+    margin: 0 20px 0 0;
     cursor: pointer;
 }

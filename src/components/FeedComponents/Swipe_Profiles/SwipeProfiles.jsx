@@ -75,16 +75,8 @@ const SwipeProfiles = () => {
             linkTo: "/",
             name: "kichi",
         },
-        {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
-            linkTo: "/",
-            name: "floydian",
-        },
-        {
-            img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png",
-            linkTo: "/",
-            name: "kichi",
-        },
+        
+        
     ]
   return (
     <>
@@ -117,7 +109,7 @@ const SwipeProfiles = () => {
           );
         })}
       </Swiper>
-      <hr style={{background: "#F0F3F4", marginTop: "24px", width: "100%"}}/>
+      <hr className='swiper-border' />
     </>
   )
 }

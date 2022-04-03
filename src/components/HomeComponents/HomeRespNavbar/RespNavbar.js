@@ -1,7 +1,7 @@
 import React from 'react'
 import './RespNavbar.css'
 import logo from '../icons/logo.svg'
-
+import {Link} from 'react-router-dom'
 import Home from '../icons/Home.svg'
 import Explore from '../icons/Explore.svg'
 import Settings from '../icons/Settings.svg'
@@ -20,7 +20,7 @@ function RespNavbar() {
         <a href="/"> <img src={Home} alt="" /> </a>
         <a href="/"> <img src={Explore} alt="" /> </a>
         <a href="/"> <img src={Settings} alt="" /> </a>
-        <a href="/"> <img src={Logout } alt="" /> </a>
+       <Link to={'/login'}> <a href="/"> <img src={Logout } alt="" /> </a></Link>
       </div>
 
       <div className="resp-upload">

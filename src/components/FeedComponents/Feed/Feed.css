@@ -5,7 +5,9 @@
     align-items: center;
     overflow-x: hidden;
     margin: auto  auto;
-    margin-top: 15px;
+
+    background-color: red;
+    
   
 }
 
@@ -15,9 +17,8 @@
     justify-content: flex-start;
     gap: 14px;
     margin-top: 24px;
+    margin-left: 5px;
     width: 100%;
-    
-
 }
 
 .sort_btns_wrapper button{
@@ -70,8 +71,14 @@ color: #292D7D;
     border-radius: 4px ;
     display: block;
     margin: 5px 0 0 0;
+    transition: all 0.5s;
 }
 
-
+@media  screen and (max-width:1055px) {
+    
+    .feed {
+        margin-top: 35px;
+    }
+}
 
 
