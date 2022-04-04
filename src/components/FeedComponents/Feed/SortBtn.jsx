@@ -15,7 +15,7 @@ const SortBtn = ({parent, setActiveState, activeState}) => {
   return (
     <>
     {active ?
-        <button id={ 'activeSort'} >{parent}</button> :
+        <button id={ 'activeSort'} onClick={()=> setActiveState(!active)}>{parent}</button> :
         <button id={hoverBorder && 'activeSort'} onMouseOver={()=> setHoverBorder(true)} onMouseLeave={()=> setHoverBorder(false)} onClick={() => changeActive()}>{parent}</button>
     }
     </>

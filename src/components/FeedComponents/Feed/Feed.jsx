@@ -9,19 +9,10 @@ const Feed = () => {
        
 
       
-
-
-        const sortBtn = [
-          'New',
-          'Popular',
-          'Favourite'
-      ]
-
-
    
       
     
-     const [activeState,setActiveState] = useState('Popular')
+     const [activeState,setActiveState] = useState('New')
 
 
 
@@ -36,10 +27,9 @@ const Feed = () => {
         <SwipeProfiles  />
         
         <div className="sort_btns_wrapper"  > 
-        <div className="sort-btn" onClick={()=> setActiveState('New')}> <SortBtn  className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="New"/></div>
-         <div className="sort-btn"  ><SortBtn className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="Popular"/></div>
-          
-        <div className="sort-btn" onClick={active} ><SortBtn className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="Favourite"/></div>
+       <SortBtn  className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="New"/>
+       <SortBtn className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="Popular"/>   
+       <SortBtn className='sort-btn' setActiveState={setActiveState} activeState={activeState}  parent="Favourite"/>
       
         </div>
     </div>
