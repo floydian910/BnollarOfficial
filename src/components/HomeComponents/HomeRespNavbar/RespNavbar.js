@@ -19,7 +19,7 @@ function RespNavbar() {
       <div className="resp-menu">
         <a href="/"> <img src={Home} alt="" /> </a>
         <a href="/"> <img src={Explore} alt="" /> </a>
-        <a href="/"> <img src={Settings} alt="" /> </a>
+       <Link to={'/settings'}><a href="/"> <img src={Settings} alt="" /> </a></Link>
        <Link to={'/login'}> <a href="/"> <img src={Logout } alt="" /> </a></Link>
       </div>
 
