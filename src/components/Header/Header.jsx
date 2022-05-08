@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
-
+import { Link } from "react-router-dom";
 import Logo from "../../assets/RGB 2.svg";
 import Notification from "../../assets/Notification.svg";
 import Chat from "../../assets/Chat.svg";
@@ -10,8 +10,10 @@ const Header = (props) => {
   return (
     <nav className={`${styles.navbar} ${props.className}`}>
       <div className={styles.LogoContainer}>
-        <img src={Logo} alt="" />
-        <input type="text" placeholder="Search..." />
+        <Link to={"/home"}>
+          <img src={Logo} alt='' />
+        </Link>
+        <input type='text' placeholder='Search...' />
       </div>
       <div className={styles.btnContainer}>
         <button className={styles.UploadBtn}>Upload</button>
@@ -19,13 +21,13 @@ const Header = (props) => {
           style={{ fill: "#566370" }}
           className={styles.icons}
           src={Notification}
-          alt="Notification Icon"
+          alt='Notification Icon'
         />
         <button className={styles.iconBtn}>
-          <img className={styles.icons} src={Chat} alt="Chat Icon" />
+          <img className={styles.icons} src={Chat} alt='Chat Icon' />
         </button>
         <button className={styles.iconBtn}>
-          <img src={Avatar} alt="avatar" className={styles.avatar} />
+          <img src={Avatar} alt='avatar' className={styles.avatar} />
         </button>
       </div>
     </nav>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./ProfileInfo.module.css";
-
+import Nft1 from "../../assets/Nft1.svg";
 import Vector from "../../assets/Vector.svg";
 import ShowPosts from "../ShowPictureAndNft/ShowPosts";
 import ShowNFT from "../ShowPictureAndNft/ShowNFT";
@@ -21,15 +21,18 @@ const ProfileInfo = () => {
       </div>
 
       <div className={styles.posted}>
-        <div className={styles.buttonDiv}>
+        <div className={styles.buttonCont}>
           <button onClick={() => setShowPosts(true)}>
-            <img src={Vector} alt="" />
-            Post
+            <img className='nft-icon' src={Vector} alt='' />
+            <span className={styles.span1}>POST</span>
           </button>
           <div className={showPosts ? styles.active : styles.inactive}></div>
         </div>
-        <div className={styles.buttonDiv}>
-          <button onClick={() => setShowPosts(false)}>NFT</button>
+        <div className={styles.buttonCont}>
+          <button onClick={() => setShowPosts(false)}>
+            <img className='nft-icon' src={Nft1} alt='' />
+            <span className={styles.span1}>NFT</span>
+          </button>
           <div className={!showPosts ? styles.active : styles.inactive}></div>
         </div>
       </div>
