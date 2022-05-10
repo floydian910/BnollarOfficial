@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import styles from "./ProfileInfo.module.css";
+import styles from "./ProfileUserInfo.module.css";
 import Nft1 from "../../assets/Nft1.svg";
 import Vector from "../../assets/Vector.svg";
 import ShowPosts from "../ShowPictureAndNft/ShowPosts";
 import ShowNFT from "../ShowPictureAndNft/ShowNFT";
 
-const ProfileInfo = () => {
+const ProfileUserInfo = () => {
   const [showPosts, setShowPosts] = useState(true);
 
   return (
@@ -16,8 +16,7 @@ const ProfileInfo = () => {
         Capturing the story of your life, one chapter at a time.
       </p>
       <div className={styles.btnContainer}>
-        <button className={styles.followBtn}>Follow</button>
-        <button className={styles.messageBtn}>Message</button>
+        <button className={styles.editBtn}>Edit</button>
       </div>
 
       <div className={styles.posted}>
@@ -42,4 +41,4 @@ const ProfileInfo = () => {
   );
 };
 
-export default ProfileInfo;
+export default ProfileUserInfo;

@@ -28,7 +28,7 @@ function RightBar() {
         </div>
 
         <div className='right-profile-img'>
-          <Link to='/profile'>
+          <Link to='/profile-User'>
             <img
               src='https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png'
               alt='asdas'

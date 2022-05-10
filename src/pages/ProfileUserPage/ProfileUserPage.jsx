@@ -1,11 +1,11 @@
 import React from "react";
-import "./ProfilePage.css";
+import "./ProfileUserPage.css";
 import Header from "../../components/Header/Header";
-import ProfileInfo from "../../components/ProfileInfo/ProfileInfo";
+import ProfileUserInfo from "../../components/ProfileUserInfo/ProfileUserInfo";
 import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
 import Container from "../../components/HomeComponents/HomeContainer/Container";
 
-const ProfilePage = () => {
+const ProfileUserPage = () => {
   return (
     <div className='profile'>
       <Container className='profile-cont'>
@@ -13,10 +13,10 @@ const ProfilePage = () => {
       </Container>
       <ProfilePicture />
       <Container>
-        <ProfileInfo />
+        <ProfileUserInfo />
       </Container>
     </div>
   );
 };
 
-export default ProfilePage;
+export default ProfileUserPage;
