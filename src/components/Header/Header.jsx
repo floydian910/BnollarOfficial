@@ -16,7 +16,9 @@ const Header = (props) => {
         <input type='text' placeholder='Search...' />
       </div>
       <div className={styles.btnContainer}>
-        <button className={styles.UploadBtn}>Upload</button>
+        <Link to={"/upload"} className={styles.UploadBtn}>
+          Upload
+        </Link>
         <img
           style={{ fill: "#566370" }}
           className={styles.icons}

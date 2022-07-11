@@ -12,10 +12,9 @@ function RightBar() {
     <div className='right-bar__wrapper'>
       <div className='right-navbar__wrapper'>
         <div className='upload'>
-          <input type='file' accept='image/*' id='file' />
-          <label className='upload-label' htmlFor='file'>
+          <Link to={"/upload"} className='upload-label'>
             Upload
-          </label>
+          </Link>
         </div>
 
         <div className='right-navbar-icons'>
