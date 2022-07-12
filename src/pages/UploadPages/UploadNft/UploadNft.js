@@ -59,7 +59,7 @@ function UploadNft() {
           <Link to={"/upload"} className='upload-nft-back-btn'>
             Back
           </Link>
-          <Link to={"/asd"} className='upload-nft-upload-btn'>
+          <Link to={"/placebid"} className='upload-nft-upload-btn'>
             Upload
           </Link>
         </div>

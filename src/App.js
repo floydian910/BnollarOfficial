@@ -8,6 +8,7 @@ import ProfileGuestPage from "./pages/ProfileGuestPage/ProfileGuestPage";
 import Upload from "./pages/UploadPages/Upload/Upload";
 import UploadPostPage from "./pages/UploadPages/UploadPostPage/UploadPostPage";
 import UploadNft from "./pages/UploadPages/UploadNft/UploadNft";
+import PlaceBid from "./pages/UploadPages/PlaceBidPage/PlaceBid";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/upload' element={<Upload />} />
           <Route path='/uploadpostpage' element={<UploadPostPage />} />
           <Route path='/uploadnftpage' element={<UploadNft />} />
+          <Route path='/placebid' element={<PlaceBid />} />
         </Routes>
       </BrowserRouter>
     </div>
