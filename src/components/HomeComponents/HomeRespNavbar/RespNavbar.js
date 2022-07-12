@@ -41,8 +41,7 @@ function RespNavbar() {
       </div>
 
       <div className='resp-upload'>
-        <input type='file' />
-        <label htmlFor='file'>+</label>
+        <Link to={"/upload"}>+</Link>
       </div>
 
       <div className='resp-bell-chat'>

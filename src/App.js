@@ -7,6 +7,7 @@ import ProfileUserPage from "./pages/ProfileUserPage/ProfileUserPage";
 import ProfileGuestPage from "./pages/ProfileGuestPage/ProfileGuestPage";
 import Upload from "./pages/UploadPages/Upload/Upload";
 import UploadPostPage from "./pages/UploadPages/UploadPostPage/UploadPostPage";
+import UploadNft from "./pages/UploadPages/UploadNft/UploadNft";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/profile-Guest' element={<ProfileGuestPage />} />
           <Route path='/upload' element={<Upload />} />
           <Route path='/uploadpostpage' element={<UploadPostPage />} />
+          <Route path='/uploadnftpage' element={<UploadNft />} />
         </Routes>
       </BrowserRouter>
     </div>
