@@ -61,6 +61,7 @@ function UploadNft() {
           </Link>
           <Link to={"/placebid"} className='upload-nft-upload-btn'>
             Upload
+          </Link>
         </div>
       </div>
     </Container>
